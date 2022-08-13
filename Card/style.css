@@ -1,0 +1,81 @@
+*{
+  user-select: none;
+  margin: 0;
+  padding: 0;  
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #171f24;
+}
+
+.card{
+  width: 50%;
+  height: 50%;
+  background-color: rgb(148, 3, 129);
+  border-radius: 10px;
+  box-shadow: -5px -5px 10px rgb(191, 255, 73);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.img-card img{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 0px 0px 15px;
+
+}
+.img-card{
+  width: 100%;
+  height: 100%;
+}
+.main-card{
+  text-align: center;
+  font-size: 29px;
+  width: 100%;
+}
+
+h2 , .precio{
+  color: rgb(255, 255, 255);
+text-shadow: -5px -5px 10px rgba(255, 123, 0, 0.493);
+}
+h2 , p , button{
+  padding: 8px;
+}
+button{
+  border-radius: 10px;
+  background-color: rgb(46, 34, 34);
+  border-color: white;
+  color: white;
+  text-shadow: -5px -5px 10px rgba(255, 251, 0, 0.349);
+  width: 85%;
+  font-size: 60%;
+  box-shadow: 5px #666;
+}
+button:hover{
+background-color: rgba(255, 0, 0, 0.63);
+}
+button:active{
+  background-color:rgb(255, 0, 191) ;
+  transform: translateY(5px) ;
+  box-shadow: 0 5px #666;
+}
+.pub{
+  color: rgb(80, 255, 255);
+  font-size: 2rem;
+  text-shadow:dimgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card p{
+  color: rgb(0, 0, 0);
+  
+}
